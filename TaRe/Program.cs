@@ -18,10 +18,10 @@ namespace TaRe
             Console.ReadLine();
 
             //Wandel Text in Numerische Werte um
-            int ersterSummandalsZahl = Convert.ToInt32(erstersummand);
-            int zweiterSummandalsZahl = Convert.ToInt32(zweitersummand);
+            float ersterSummandalsZahl = Convert.ToSingle(erstersummand);
+            float zweiterSummandalsZahl = Convert.ToSingle(zweitersummand);
         
-            int summe = ersterSummandalsZahl + zweiterSummandalsZahl;
+            float summe = ersterSummandalsZahl + zweiterSummandalsZahl;
 
             Console.WriteLine("Die Summe ist: {0}", summe);
             Console.ReadLine();
